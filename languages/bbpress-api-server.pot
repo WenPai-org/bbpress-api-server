@@ -1,0 +1,293 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress API Server\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-16 07:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.7.2\n"
+"X-Domain: bbpress-api-server"
+
+#: includes/admin.php:191
+msgid "Activate this plugin (bbPress API Server) from the Plugins page."
+msgstr ""
+
+#: includes/admin.php:40
+msgid "Active"
+msgstr ""
+
+#: includes/admin.php:199
+msgid "Advanced Tips"
+msgstr ""
+
+#: includes/admin.php:15
+msgid "API Details"
+msgstr ""
+
+#: includes/admin.php:26
+msgid "API Namespace:"
+msgstr ""
+
+#: includes/admin.php:19
+msgid "API Status"
+msgstr ""
+
+#: includes/admin.php:20
+msgid "Available Endpoints"
+msgstr ""
+
+#: bbpress-api-server.php:73
+msgid "bbPress API"
+msgstr ""
+
+#. Name of the plugin
+#: bbpress-api-server.php:72 includes/admin.php:11
+msgid "bbPress API Server"
+msgstr ""
+
+#: bbpress-api-server.php:41 bbpress-api-server.php:55
+msgid "bbPress API Server requires bbPress to be installed and activated."
+msgstr ""
+
+#: includes/endpoints.php:131 includes/endpoints.php:150
+#: includes/endpoints.php:200 includes/endpoints.php:286
+msgid "bbPress is not active"
+msgstr ""
+
+#: includes/admin.php:28
+msgid "bbPress Version:"
+msgstr ""
+
+#: includes/endpoints.php:336
+msgid "Cannot create topics in a category"
+msgstr ""
+
+#: includes/endpoints.php:135
+msgid "Connection successful"
+msgstr ""
+
+#: includes/admin.php:95
+msgid "Create a new topic in a forum"
+msgstr ""
+
+#: includes/admin.php:125
+msgid "Create a reply to a topic"
+msgstr ""
+
+#: includes/admin.php:155
+msgid "Create a reply to another reply"
+msgstr ""
+
+#: includes/admin.php:57
+msgid "Description"
+msgstr ""
+
+#: includes/admin.php:192
+msgid ""
+"Enable pretty permalinks in Settings > Permalinks (recommended: \"Post "
+"name\")."
+msgstr ""
+
+#: includes/admin.php:55
+msgid "Endpoint"
+msgstr ""
+
+#: includes/admin.php:211
+msgid "Endpoint:"
+msgstr ""
+
+#: includes/admin.php:35
+msgid "Error"
+msgstr ""
+
+#: includes/admin.php:58
+msgid "Example"
+msgstr ""
+
+#: includes/admin.php:75
+msgid "Get a list of forums"
+msgstr ""
+
+#: includes/admin.php:165
+msgid "Get a list of topic tags"
+msgstr ""
+
+#: includes/admin.php:105
+msgid "Get a list of topics"
+msgstr ""
+
+#: includes/admin.php:85
+msgid "Get details of a specific forum"
+msgstr ""
+
+#: includes/admin.php:145
+msgid "Get details of a specific reply"
+msgstr ""
+
+#: includes/admin.php:115
+msgid "Get details of a specific topic"
+msgstr ""
+
+#: includes/admin.php:175
+msgid "Get forum statistics"
+msgstr ""
+
+#: includes/admin.php:135
+msgid "Get replies for a topic"
+msgstr ""
+
+#: includes/admin.php:188
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin.php:284
+msgid "Hide Example"
+msgstr ""
+
+#: includes/admin.php:197
+msgid "How to Using the API？"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wptopic.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wptopic.com/document/bbpress-api-server"
+msgstr ""
+
+#: includes/admin.php:42
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin.php:190
+msgid "Install and activate bbPress on your WordPress site."
+msgstr ""
+
+#: includes/admin.php:21
+msgid "Instructions"
+msgstr ""
+
+#: includes/endpoints.php:343 includes/endpoints.php:375
+#: includes/endpoints.php:413
+msgid "Invalid email or user not found"
+msgstr ""
+
+#: includes/endpoints.php:189 includes/endpoints.php:333
+msgid "Invalid forum ID"
+msgstr ""
+
+#: includes/endpoints.php:228
+msgid "Invalid or inaccessible forum"
+msgstr ""
+
+#: includes/endpoints.php:324 includes/endpoints.php:407
+msgid "Invalid reply ID"
+msgstr ""
+
+#: includes/endpoints.php:272 includes/endpoints.php:293
+#: includes/endpoints.php:369
+msgid "Invalid topic ID"
+msgstr ""
+
+#: includes/admin.php:47
+msgid "Last Check:"
+msgstr ""
+
+#: includes/admin.php:44
+msgid "Message:"
+msgstr ""
+
+#: includes/admin.php:56
+msgid "Method"
+msgstr ""
+
+#: includes/admin.php:215
+msgid "Method:"
+msgstr ""
+
+#: includes/admin.php:195
+msgid "More Help"
+msgstr ""
+
+#: includes/admin.php:222
+msgid "Parameters (JSON):"
+msgstr ""
+
+#: includes/admin.php:198
+msgid "Permissions and Authentication"
+msgstr ""
+
+#: includes/admin.php:27
+msgid "Plugin Version:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Provides comprehensive API endpoints for bbPress forums, topics, and replies "
+"with creation capabilities"
+msgstr ""
+
+#: includes/endpoints.php:399 includes/endpoints.php:440
+msgid "Reply created successfully"
+msgstr ""
+
+#: includes/admin.php:66 includes/admin.php:76 includes/admin.php:86
+#: includes/admin.php:96 includes/admin.php:106 includes/admin.php:116
+#: includes/admin.php:126 includes/admin.php:136 includes/admin.php:146
+#: includes/admin.php:156 includes/admin.php:166 includes/admin.php:176
+#: includes/admin.php:284
+msgid "Show Example"
+msgstr ""
+
+#: includes/admin.php:35 includes/admin.php:40 includes/admin.php:42
+msgid "Status:"
+msgstr ""
+
+#: includes/admin.php:208
+msgid "Test API"
+msgstr ""
+
+#: includes/admin.php:65
+msgid "Test if the API is working"
+msgstr ""
+
+#: includes/admin.php:226
+msgid "Test Now"
+msgstr ""
+
+#: includes/admin.php:240
+msgid "Test Result"
+msgstr ""
+
+#: includes/admin.php:193
+msgid ""
+"Test the API using the \"Test API\" tool above or an external tool like "
+"Postman."
+msgstr ""
+
+#: includes/endpoints.php:192
+msgid "This forum is not public"
+msgstr ""
+
+#: includes/admin.php:16
+msgid ""
+"This plugin provides REST API endpoints for bbPress forums, topics, and "
+"replies."
+msgstr ""
+
+#: includes/endpoints.php:361
+msgid "Topic created successfully"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPTopic.com"
+msgstr ""

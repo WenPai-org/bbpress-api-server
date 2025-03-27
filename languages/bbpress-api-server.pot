@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bbPress API Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-16 07:40+0000\n"
+"POT-Creation-Date: 2025-03-27 03:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,44 +16,44 @@ msgstr ""
 "X-Loco-Version: 2.6.11; wp-6.7.2\n"
 "X-Domain: bbpress-api-server"
 
-#: includes/admin.php:191
+#: includes/admin.php:194
 msgid "Activate this plugin (bbPress API Server) from the Plugins page."
 msgstr ""
 
-#: includes/admin.php:40
+#: includes/admin.php:43
 msgid "Active"
 msgstr ""
 
-#: includes/admin.php:199
+#: includes/admin.php:202
 msgid "Advanced Tips"
 msgstr ""
 
-#: includes/admin.php:15
+#: includes/admin.php:18
 msgid "API Details"
 msgstr ""
 
-#: includes/admin.php:26
+#: includes/admin.php:29
 msgid "API Namespace:"
 msgstr ""
 
-#: includes/admin.php:19
+#: includes/admin.php:22
 msgid "API Status"
 msgstr ""
 
-#: includes/admin.php:20
+#: includes/admin.php:23
 msgid "Available Endpoints"
 msgstr ""
 
-#: bbpress-api-server.php:73
+#: bbpress-api-server.php:83
 msgid "bbPress API"
 msgstr ""
 
 #. Name of the plugin
-#: bbpress-api-server.php:72 includes/admin.php:11
+#: bbpress-api-server.php:82 includes/admin.php:11
 msgid "bbPress API Server"
 msgstr ""
 
-#: bbpress-api-server.php:41 bbpress-api-server.php:55
+#: bbpress-api-server.php:41 bbpress-api-server.php:65
 msgid "bbPress API Server requires bbPress to be installed and activated."
 msgstr ""
 
@@ -62,7 +62,7 @@ msgstr ""
 msgid "bbPress is not active"
 msgstr ""
 
-#: includes/admin.php:28
+#: includes/admin.php:31
 msgid "bbPress Version:"
 msgstr ""
 
@@ -74,85 +74,89 @@ msgstr ""
 msgid "Connection successful"
 msgstr ""
 
-#: includes/admin.php:95
+#: includes/admin.php:98
 msgid "Create a new topic in a forum"
 msgstr ""
 
-#: includes/admin.php:125
+#: includes/admin.php:128
 msgid "Create a reply to a topic"
 msgstr ""
 
-#: includes/admin.php:155
+#: includes/admin.php:158
 msgid "Create a reply to another reply"
 msgstr ""
 
-#: includes/admin.php:57
+#: includes/admin.php:60
 msgid "Description"
 msgstr ""
 
-#: includes/admin.php:192
+#: includes/admin.php:13
+msgid "Document"
+msgstr ""
+
+#: includes/admin.php:195
 msgid ""
 "Enable pretty permalinks in Settings > Permalinks (recommended: \"Post "
 "name\")."
 msgstr ""
 
-#: includes/admin.php:55
+#: includes/admin.php:58
 msgid "Endpoint"
 msgstr ""
 
-#: includes/admin.php:211
+#: includes/admin.php:214
 msgid "Endpoint:"
 msgstr ""
 
-#: includes/admin.php:35
+#: includes/admin.php:38
 msgid "Error"
 msgstr ""
 
-#: includes/admin.php:58
+#: includes/admin.php:61
 msgid "Example"
 msgstr ""
 
-#: includes/admin.php:75
+#: includes/admin.php:78
 msgid "Get a list of forums"
 msgstr ""
 
-#: includes/admin.php:165
+#: includes/admin.php:168
 msgid "Get a list of topic tags"
 msgstr ""
 
-#: includes/admin.php:105
+#: includes/admin.php:108
 msgid "Get a list of topics"
 msgstr ""
 
-#: includes/admin.php:85
+#: includes/admin.php:88
 msgid "Get details of a specific forum"
 msgstr ""
 
-#: includes/admin.php:145
+#: includes/admin.php:148
 msgid "Get details of a specific reply"
 msgstr ""
 
-#: includes/admin.php:115
+#: includes/admin.php:118
 msgid "Get details of a specific topic"
 msgstr ""
 
-#: includes/admin.php:175
+#: includes/admin.php:178
 msgid "Get forum statistics"
 msgstr ""
 
-#: includes/admin.php:135
+#: includes/admin.php:138
 msgid "Get replies for a topic"
 msgstr ""
 
-#: includes/admin.php:188
+#: includes/admin.php:191
 msgid "Getting Started"
 msgstr ""
 
-#: includes/admin.php:284
+#: includes/admin.php:287
 msgid "Hide Example"
 msgstr ""
 
-#: includes/admin.php:197
+#: includes/admin.php:200
 msgid "How to Using the API？"
 msgstr ""
 
@@ -164,15 +168,15 @@ msgstr ""
 msgid "https://wptopic.com/document/bbpress-api-server"
 msgstr ""
 
-#: includes/admin.php:42
+#: includes/admin.php:45
 msgid "Inactive"
 msgstr ""
 
-#: includes/admin.php:190
+#: includes/admin.php:193
 msgid "Install and activate bbPress on your WordPress site."
 msgstr ""
 
-#: includes/admin.php:21
+#: includes/admin.php:24
 msgid "Instructions"
 msgstr ""
 
@@ -198,35 +202,35 @@ msgstr ""
 msgid "Invalid topic ID"
 msgstr ""
 
-#: includes/admin.php:47
+#: includes/admin.php:50
 msgid "Last Check:"
 msgstr ""
 
-#: includes/admin.php:44
+#: includes/admin.php:47
 msgid "Message:"
 msgstr ""
 
-#: includes/admin.php:56
+#: includes/admin.php:59
 msgid "Method"
 msgstr ""
 
-#: includes/admin.php:215
+#: includes/admin.php:218
 msgid "Method:"
 msgstr ""
 
-#: includes/admin.php:195
+#: includes/admin.php:198
 msgid "More Help"
 msgstr ""
 
-#: includes/admin.php:222
+#: includes/admin.php:225
 msgid "Parameters (JSON):"
 msgstr ""
 
-#: includes/admin.php:198
+#: includes/admin.php:201
 msgid "Permissions and Authentication"
 msgstr ""
 
-#: includes/admin.php:27
+#: includes/admin.php:30
 msgid "Plugin Version:"
 msgstr ""
 
@@ -240,35 +244,39 @@ msgstr ""
 msgid "Reply created successfully"
 msgstr ""
 
-#: includes/admin.php:66 includes/admin.php:76 includes/admin.php:86
-#: includes/admin.php:96 includes/admin.php:106 includes/admin.php:116
-#: includes/admin.php:126 includes/admin.php:136 includes/admin.php:146
-#: includes/admin.php:156 includes/admin.php:166 includes/admin.php:176
-#: includes/admin.php:284
+#: includes/admin.php:69 includes/admin.php:79 includes/admin.php:89
+#: includes/admin.php:99 includes/admin.php:109 includes/admin.php:119
+#: includes/admin.php:129 includes/admin.php:139 includes/admin.php:149
+#: includes/admin.php:159 includes/admin.php:169 includes/admin.php:179
+#: includes/admin.php:287
 msgid "Show Example"
 msgstr ""
 
-#: includes/admin.php:35 includes/admin.php:40 includes/admin.php:42
+#: includes/admin.php:38 includes/admin.php:43 includes/admin.php:45
 msgid "Status:"
 msgstr ""
 
-#: includes/admin.php:208
+#: includes/admin.php:14
+msgid "Support"
+msgstr ""
+
+#: includes/admin.php:211
 msgid "Test API"
 msgstr ""
 
-#: includes/admin.php:65
+#: includes/admin.php:68
 msgid "Test if the API is working"
 msgstr ""
 
-#: includes/admin.php:226
+#: includes/admin.php:229
 msgid "Test Now"
 msgstr ""
 
-#: includes/admin.php:240
+#: includes/admin.php:243
 msgid "Test Result"
 msgstr ""
 
-#: includes/admin.php:193
+#: includes/admin.php:196
 msgid ""
 "Test the API using the \"Test API\" tool above or an external tool like "
 "Postman."
@@ -278,7 +286,7 @@ msgstr ""
 msgid "This forum is not public"
 msgstr ""
 
-#: includes/admin.php:16
+#: includes/admin.php:19
 msgid ""
 "This plugin provides REST API endpoints for bbPress forums, topics, and "
 "replies."
@@ -286,6 +294,11 @@ msgstr ""
 
 #: includes/endpoints.php:361
 msgid "Topic created successfully"
+msgstr ""
+
+#: includes/admin.php:12
+#, php-format
+msgid "Version: %s"
 msgstr ""
 
 #. Author of the plugin

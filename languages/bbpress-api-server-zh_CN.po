@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bbPress API Server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-16 07:25+0000\n"
-"PO-Revision-Date: 2025-03-16 15:47+0800\n"
+"PO-Revision-Date: 2025-03-27 03:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: 简体中文\n"
 "Language: zh_CN\n"
@@ -11,48 +11,48 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.11; wp-6.7.2\n"
 "X-Domain: bbpress-api-server\n"
 
-#: includes/admin.php:191
+#: includes/admin.php:194
 msgid "Activate this plugin (bbPress API Server) from the Plugins page."
 msgstr "从插件页面激活此插件（bbPress API 服务器）。"
 
-#: includes/admin.php:40
+#: includes/admin.php:43
 msgid "Active"
 msgstr "启用"
 
-#: includes/admin.php:199
+#: includes/admin.php:202
 msgid "Advanced Tips"
 msgstr "高级技巧"
 
-#: includes/admin.php:15
+#: includes/admin.php:18
 msgid "API Details"
 msgstr "API 详细信息"
 
-#: includes/admin.php:26
+#: includes/admin.php:29
 msgid "API Namespace:"
 msgstr "API 命名空间："
 
-#: includes/admin.php:19
+#: includes/admin.php:22
 msgid "API Status"
 msgstr "API 状态"
 
-#: includes/admin.php:20
+#: includes/admin.php:23
 msgid "Available Endpoints"
 msgstr "可用端点"
 
-#: bbpress-api-server.php:73
+#: bbpress-api-server.php:83
 msgid "bbPress API"
 msgstr "bbPress API"
 
 #. Name of the plugin
-#: bbpress-api-server.php:72 includes/admin.php:11
+#: bbpress-api-server.php:82 includes/admin.php:11
 msgid "bbPress API Server"
 msgstr "bbPress API 服务器"
 
-#: bbpress-api-server.php:41 bbpress-api-server.php:55
+#: bbpress-api-server.php:41 bbpress-api-server.php:65
 msgid "bbPress API Server requires bbPress to be installed and activated."
 msgstr "bbPress API 服务器需要安装并激活 bbPress。"
 
@@ -61,7 +61,7 @@ msgstr "bbPress API 服务器需要安装并激活 bbPress。"
 msgid "bbPress is not active"
 msgstr "bbPress 未处于活动状态"
 
-#: includes/admin.php:28
+#: includes/admin.php:31
 msgid "bbPress Version:"
 msgstr "bbPress 版本："
 
@@ -73,85 +73,89 @@ msgstr "无法在类别中创建话题"
 msgid "Connection successful"
 msgstr "连接成功"
 
-#: includes/admin.php:95
+#: includes/admin.php:98
 msgid "Create a new topic in a forum"
 msgstr "在论坛中创建新话题"
 
-#: includes/admin.php:125
+#: includes/admin.php:128
 msgid "Create a reply to a topic"
 msgstr "创建话题回复"
 
-#: includes/admin.php:155
+#: includes/admin.php:158
 msgid "Create a reply to another reply"
 msgstr "创建对另一个回复的回复"
 
-#: includes/admin.php:57
+#: includes/admin.php:60
 msgid "Description"
 msgstr "描述"
 
-#: includes/admin.php:192
+#: includes/admin.php:13
+msgid "Document"
+msgstr "文档"
+
+#: includes/admin.php:195
 msgid ""
 "Enable pretty permalinks in Settings > Permalinks (recommended: \"Post "
 "name\")."
 msgstr "前往设置 > 固定链接中启用漂亮的永久链接（推荐：“文章名”）。"
 
-#: includes/admin.php:55
+#: includes/admin.php:58
 msgid "Endpoint"
 msgstr "端点"
 
-#: includes/admin.php:211
+#: includes/admin.php:214
 msgid "Endpoint:"
 msgstr "端点："
 
-#: includes/admin.php:35
+#: includes/admin.php:38
 msgid "Error"
 msgstr "错误"
 
-#: includes/admin.php:58
+#: includes/admin.php:61
 msgid "Example"
 msgstr "示例"
 
-#: includes/admin.php:75
+#: includes/admin.php:78
 msgid "Get a list of forums"
 msgstr "获取论坛列表"
 
-#: includes/admin.php:165
+#: includes/admin.php:168
 msgid "Get a list of topic tags"
 msgstr "获取话题标签列表"
 
-#: includes/admin.php:105
+#: includes/admin.php:108
 msgid "Get a list of topics"
 msgstr "获取话题列表"
 
-#: includes/admin.php:85
+#: includes/admin.php:88
 msgid "Get details of a specific forum"
 msgstr "获取特定论坛的详细信息"
 
-#: includes/admin.php:145
+#: includes/admin.php:148
 msgid "Get details of a specific reply"
 msgstr "获取特定回复的详细信息"
 
-#: includes/admin.php:115
+#: includes/admin.php:118
 msgid "Get details of a specific topic"
 msgstr "获取特定话题的详细信息"
 
-#: includes/admin.php:175
+#: includes/admin.php:178
 msgid "Get forum statistics"
 msgstr "获取论坛统计信息"
 
-#: includes/admin.php:135
+#: includes/admin.php:138
 msgid "Get replies for a topic"
 msgstr "获取话题的回复"
 
-#: includes/admin.php:188
+#: includes/admin.php:191
 msgid "Getting Started"
 msgstr "入门"
 
-#: includes/admin.php:284
+#: includes/admin.php:287
 msgid "Hide Example"
 msgstr "隐藏示例"
 
-#: includes/admin.php:197
+#: includes/admin.php:200
 msgid "How to Using the API？"
 msgstr "如何使用API​​？"
 
@@ -163,15 +167,15 @@ msgstr "https://wptopic.com"
 msgid "https://wptopic.com/document/bbpress-api-server"
 msgstr "https://wptopic.com/document/bbpress-api-server"
 
-#: includes/admin.php:42
+#: includes/admin.php:45
 msgid "Inactive"
 msgstr "停用"
 
-#: includes/admin.php:190
+#: includes/admin.php:193
 msgid "Install and activate bbPress on your WordPress site."
 msgstr "在您的 WordPress 网站上安装并激活 bbPress。"
 
-#: includes/admin.php:21
+#: includes/admin.php:24
 msgid "Instructions"
 msgstr "说明"
 
@@ -197,35 +201,35 @@ msgstr "回复 ID 无效"
 msgid "Invalid topic ID"
 msgstr "话题 ID 无效"
 
-#: includes/admin.php:47
+#: includes/admin.php:50
 msgid "Last Check:"
 msgstr "最后检查："
 
-#: includes/admin.php:44
+#: includes/admin.php:47
 msgid "Message:"
 msgstr "信息："
 
-#: includes/admin.php:56
+#: includes/admin.php:59
 msgid "Method"
 msgstr "方法"
 
-#: includes/admin.php:215
+#: includes/admin.php:218
 msgid "Method:"
 msgstr "方法："
 
-#: includes/admin.php:195
+#: includes/admin.php:198
 msgid "More Help"
 msgstr "更多帮助"
 
-#: includes/admin.php:222
+#: includes/admin.php:225
 msgid "Parameters (JSON):"
 msgstr "参数（JSON）："
 
-#: includes/admin.php:198
+#: includes/admin.php:201
 msgid "Permissions and Authentication"
 msgstr "权限和身份验证"
 
-#: includes/admin.php:27
+#: includes/admin.php:30
 msgid "Plugin Version:"
 msgstr "插件版本："
 
@@ -239,35 +243,39 @@ msgstr "为 bbPress 论坛、话题和回复提供全面的 API 端点，并具�
 msgid "Reply created successfully"
 msgstr "回复创建成功"
 
-#: includes/admin.php:66 includes/admin.php:76 includes/admin.php:86
-#: includes/admin.php:96 includes/admin.php:106 includes/admin.php:116
-#: includes/admin.php:126 includes/admin.php:136 includes/admin.php:146
-#: includes/admin.php:156 includes/admin.php:166 includes/admin.php:176
-#: includes/admin.php:284
+#: includes/admin.php:69 includes/admin.php:79 includes/admin.php:89
+#: includes/admin.php:99 includes/admin.php:109 includes/admin.php:119
+#: includes/admin.php:129 includes/admin.php:139 includes/admin.php:149
+#: includes/admin.php:159 includes/admin.php:169 includes/admin.php:179
+#: includes/admin.php:287
 msgid "Show Example"
 msgstr "显示示例"
 
-#: includes/admin.php:35 includes/admin.php:40 includes/admin.php:42
+#: includes/admin.php:38 includes/admin.php:43 includes/admin.php:45
 msgid "Status:"
 msgstr "状态："
 
-#: includes/admin.php:208
+#: includes/admin.php:14
+msgid "Support"
+msgstr "支持"
+
+#: includes/admin.php:211
 msgid "Test API"
 msgstr "测试 API"
 
-#: includes/admin.php:65
+#: includes/admin.php:68
 msgid "Test if the API is working"
 msgstr "测试 API 是否正常工作"
 
-#: includes/admin.php:226
+#: includes/admin.php:229
 msgid "Test Now"
 msgstr "立即测试"
 
-#: includes/admin.php:240
+#: includes/admin.php:243
 msgid "Test Result"
 msgstr "测试结果"
 
-#: includes/admin.php:193
+#: includes/admin.php:196
 msgid ""
 "Test the API using the \"Test API\" tool above or an external tool like "
 "Postman."
@@ -277,7 +285,7 @@ msgstr "使用上面的“测试 API”工具或 Postman 等外部工具测试 A
 msgid "This forum is not public"
 msgstr "该论坛不公开"
 
-#: includes/admin.php:16
+#: includes/admin.php:19
 msgid ""
 "This plugin provides REST API endpoints for bbPress forums, topics, and "
 "replies."
@@ -287,6 +295,11 @@ msgstr "该插件为 bbPress 论坛、话题和回复提供 REST API 端点。"
 msgid "Topic created successfully"
 msgstr "话题创建成功"
 
+#: includes/admin.php:12
+#, php-format
+msgid "Version: %s"
+msgstr "版本: %s"
+
 #. Author of the plugin
 msgid "WPTopic.com"
-msgstr "WPTopic.com"
+msgstr "文派话题"

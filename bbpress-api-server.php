@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: bbPress API Server
- * Plugin URI: https://wptopic.com/document/bbpress-api-server
+ * Plugin URI: https://wenpai.org/plugins/bbpress-api-server
  * Description: Provides comprehensive API endpoints for bbPress forums, topics, and replies with creation capabilities
  * Version: 2.0.0
  * Author: WPTopic.com
@@ -86,3 +86,13 @@ add_action('admin_menu', function() {
         'bbpas_admin_page'
     );
 });
+
+// Integrate UpdatePulse Server for updates using PUC v5.3
+require_once plugin_dir_path(__FILE__) . 'lib/plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5p3\PucFactory;
+
+$BbpressApiServerUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://updates.weixiaoduo.com/bbpress-api-server.json',
+    __FILE__,
+    'bbpress-api-server'
+);

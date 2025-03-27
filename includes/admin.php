@@ -8,8 +8,11 @@ if (!defined('ABSPATH')) {
 function bbpas_admin_page() {
     ?>
     <div class="wrap">
-        <h1><?php _e('bbPress API Server', 'bbpress-api-server'); ?></h1>
-
+        <h1><?php _e('bbPress API Server', 'bbpress-api-server'); ?>
+            <span style="font-size: 13px; padding-left: 10px;"><?php printf(esc_html__('Version: %s', 'bbpress-api-server'), esc_html(BBPAS_VERSION)); ?></span>
+            <a href="https://wpsdk.com/?p=1076" target="_blank" class="button button-secondary" style="margin-left: 10px;"><?php esc_html_e('Document', 'bbpress-api-server'); ?></a>
+            <a href="https://bbs.weixiaoduo.com/" target="_blank" class="button button-secondary"><?php esc_html_e('Support', 'bbpress-api-server'); ?></a>
+        </h1>
                 <!-- Tabs for API Details -->
                 <div class="card">
                     <h2><?php _e('API Details', 'bbpress-api-server'); ?></h2>
